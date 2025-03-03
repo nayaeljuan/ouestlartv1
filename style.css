@@ -1,0 +1,47 @@
+.image-grid {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 20px;
+margin-top: 50px;
+justify-content: center;
+align-items: center;
+text-align: center;
+}
+.container {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.image-grid a {
+display: block;
+}
+.image-grid img {
+width: 200px; /* Ajuste la taille selon ton besoin */
+height: auto;
+border-radius: 8px;
+}
+h1 {
+  
+    text-align: center;
+}
+p {
+    width: 50%;
+    max-width: 600px;
+    text-align: center;
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 30px;
+}
+
+.art1contener{
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.art1{
+    width: 700px;
+    height: auto;
+}
